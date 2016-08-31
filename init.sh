@@ -2,7 +2,7 @@ echo "Installing Docker Engine"
 
 # https://docs.docker.com/engine/installation/linux/centos/
 
-sudo yum update
+sudo yum -y update
 curl -fsSL https://get.docker.com/ | sh
 sudo service docker start
 
