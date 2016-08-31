@@ -5,6 +5,7 @@ echo "Installing Docker Engine"
 sudo yum -y update
 curl -fsSL https://get.docker.com/ | sh
 sudo service docker start
+sudo service firewalld stop
 
 sudo groupadd docker
 # DO NOT USE IN PRODUCTION!
